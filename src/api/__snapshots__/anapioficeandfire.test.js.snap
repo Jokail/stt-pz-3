@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`#getHouseByName() - "House Allyrion of Godsgrace" should match the stored snapshot 1`] = `
+Array [
+  Object {
+    "ancestralWeapons": Array [],
+    "cadetBranches": Array [],
+    "coatOfArms": "Gyronny Gules and Sable, a hand couped Or",
+    "currentLord": "https://www.anapioficeandfire.com/api/characters/298",
+    "diedOut": "",
+    "founded": "",
+    "founder": "",
+    "heir": "https://www.anapioficeandfire.com/api/characters/1922",
+    "name": "House Allyrion of Godsgrace",
+    "overlord": "https://www.anapioficeandfire.com/api/houses/285",
+    "region": "Dorne",
+    "seats": Array [
+      "Godsgrace",
+    ],
+    "swornMembers": Array [
+      "https://www.anapioficeandfire.com/api/characters/298",
+      "https://www.anapioficeandfire.com/api/characters/1129",
+      "https://www.anapioficeandfire.com/api/characters/1301",
+      "https://www.anapioficeandfire.com/api/characters/1922",
+    ],
+    "titles": Array [],
+    "url": "https://www.anapioficeandfire.com/api/houses/2",
+    "words": "No Foe May Pass",
+  },
+]
+`;

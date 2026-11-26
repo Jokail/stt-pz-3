@@ -1,14 +1,14 @@
 import './App.css';
-import {getBooks, getListOfRestEndPoint} from './api/anapioficeandfire'
+import {getListOfRestEndPoint} from './api/anapioficeandfire'
 import {useState, useEffect} from "react";
 
 function App() {
     const [list, setList] = useState({});
     useEffect(() => {
-        getBooks().then(data => {
+        getListOfRestEndPoint().then(data => {
             setList(data.entity);
         })
-    });
+    }, []);
     return (
         <div className="app">
             <section className="app-main">

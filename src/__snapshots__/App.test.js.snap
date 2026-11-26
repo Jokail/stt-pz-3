@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Matches DOM Snapshot 1`] = `
+<div
+  className="app"
+>
+  <section
+    className="app-main"
+  >
+    <h1>
+      <a
+        className="app-link"
+        href="https://www.anapioficeandfire.com/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Learn An API of Ice And Fire
+      </a>
+    </h1>
+    <ul
+      className="app-list"
+    >
+      <li
+        className="app-list-item"
+      >
+        <b>
+          books
+        </b>
+        :
+        <a
+          className="app-link"
+          href="https://www.anapioficeandfire.com/api/books"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+           
+          https://www.anapioficeandfire.com/api/books
+        </a>
+      </li>
+      <li
+        className="app-list-item"
+      >
+        <b>
+          characters
+        </b>
+        :
+        <a
+          className="app-link"
+          href="https://www.anapioficeandfire.com/api/characters"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+           
+          https://www.anapioficeandfire.com/api/characters
+        </a>
+      </li>
+      <li
+        className="app-list-item"
+      >
+        <b>
+          houses
+        </b>
+        :
+        <a
+          className="app-link"
+          href="https://www.anapioficeandfire.com/api/houses"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+           
+          https://www.anapioficeandfire.com/api/houses
+        </a>
+      </li>
+    </ul>
+  </section>
+</div>
+`;
